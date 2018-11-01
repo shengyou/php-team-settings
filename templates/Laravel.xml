@@ -1,0 +1,9 @@
+<templateSet group="Laravel">
+  <template name="rtg" value="Route::get('$URI', '$RESOURCE$Controller@$METHOD$')$END$;" description="Route::get statement" toReformat="true" toShortenFQNames="true">
+    <variable name="RESOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
